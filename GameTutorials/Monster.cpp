@@ -21,26 +21,3 @@ int main() {
 
 
 }
-sup3rn0va@debian:~/Documents/makegamescpp$ cat Monster.cpp
-#include "Monster.h"
-#include <iostream>
-
-
-Monster::Monster() {
-
-	_name = "NONAME";
-
-
-}
-
-Monster::Monster(string name) {
-
-	_name = name;
-
-}
-
-void Monster::printname() {
-
-	cout << "My name is" << " " << _name << endl;
-
-}
